@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  font-family: sans-serif;
+  background:  linear-gradient(-1800deg, #00000080, #00000000), url(https://source.unsplash.com/random?night-tree) no-repeat center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 3rem auto;
+  padding: 1rem 3rem;
+  color: white;
+}
+.container_right .fa-cloud {
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+.location {
+  font-size: 11px;
+}
+.container_right h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.container_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_center {
+  margin-top: 100px;
+}
+.footer {
+  display: flex;
+  margin: 10px;
+}
+.middle {
+  padding: 20 0px;
+  font-size: 30px;
+}
+.container_right p {
+  font-size: 47px;
+}
+.footer {
+  margin: 10px;
+  justify-content: center;
+}
+.card{
+    margin-right: 1.2rem;
+}
+.container_icon {
+  font-size: 30px;
+}
+
+.container_side {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.container_side .container_right_icon{
+    margin-right: 1rem;
+    font-size: 2rem;
+    width : 3rem;
+}
+
+.container_side .container_right_Text p{
+    text-transform: capitalize;
+    padding-bottom: .4rem;
+}
+
+.container_right * {
+  margin-bottom: .6rem;  
+}
+.container_right h3{
+text-transform: capitalize;
+margin-bottom: 0;
+}
+.container_right .fa-map-marker-alt{
+    font-size: 12px;
+    margin-right: .8rem;
+}
+.hov{
+    font-size: .8rem;
+}
+
+.date-container{
+    margin-top: 2rem;
+}
+.date-container h2{
+    text-align: center;
+}

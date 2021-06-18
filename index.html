@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_wrapper">
+        <div class="container_right">
+          <i class="fas fa-cloud"></i>
+          <h3>cloudy</h3>
+          <h5>Ambur Town</h5>
+          <p>28 &#176;C</p>
+          <i class="fas fa-map-marker-alt location"></i><span>Change Location</span>
+          <div class="container_center">
+            <i class="fas fa-chevron-left"></i><span>Thursday</span>
+          </div>
+        </div>
+
+       
+
+        <div class="container_left">
+         
+            <div class="container_side">
+            <div class="container_right_icon">
+              <i class="fas fa-tint"></i>
+            </div>
+
+            <div class="container_right_Text">
+              <p>humidity</p>
+              <h2>50%</h2>
+            </div>
+          </div>
+
+          <div class="container_side">
+            <div class="container_right_icon">
+              <i class="fab fa-mixcloud"></i>
+            </div>
+
+            <div class="container_right_Text">
+              <p>Air Pressure</p>
+              <h2>1009.483 PS</h2>
+            </div>
+          </div>
+
+          <div class="container_side">
+            <div class="container_right_icon">
+              <i class="fas fa-cloud-showers-heavy"></i>
+            </div>
+
+            <div class="container_right_Text">
+              <p>Chance Of Rain</p>
+              <h2>0%</h2>
+            </div>
+          </div>
+
+          <div class="container_side">
+            <div class="container_right_icon">
+              <i class="fas fa-wind"></i>
+            </div>
+
+            <div class="container_right_Text">
+              <p>Wind Speed</p>
+              <h2>1.4 KM/h</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="card">
+          <ul>
+            <li>3PM</li>
+            <div class="middle">
+              <li>28 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 30 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>4PM</li>
+            <div class="middle">
+              <li>28 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 30 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>5PM</li>
+            <div class="middle">
+              <li>24 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 25 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>6PM</li>
+            <div class="middle">
+              <li>17 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 20 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>7PM</li>
+            <div class="middle">
+              <li>11 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 10 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>8PM</li>
+            <div class="middle">
+              <li>11 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 10 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>9PM</li>
+            <div class="middle">
+              <li>5 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 5 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="card">
+          <ul>
+            <li>10PM</li>
+            <div class="middle">
+              <li>1 &#176;C</li>
+            </div>
+            <div class="hov">
+              <li>Feels lile 1 &#176;C</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="date-container">
+        <h2 id="date"></h2>
+    </div>
+
+    </div>
+
+    <script>
+        var dateElement = document.getElementById('date');
+        var dateObject = new Date();
+        date.innerHTML = `${dateObject}`
+    </script>
+
+  </body>
+</html>
